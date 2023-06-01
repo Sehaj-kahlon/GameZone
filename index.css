@@ -102,11 +102,11 @@ strong {
 
 /* start: header styles */
 header {
-  background-color:#6f42c1;
-  
+  background: rgb(119, 7, 55);
+  background: linear-gradient(45deg, rgba(119, 7, 55, 1) 36%, rgba(2, 0, 36, 1) 100%);
   padding: 8px 0;
   position: relative;
-  border-bottom: 1px solid #ffb320;
+  border-bottom: 1px solid #7f00ff;
 }
 
 .hamburger-menu {
@@ -143,7 +143,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffb320;
+  color: #7f00ff;
 }
 
 #login-register-button {
