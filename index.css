@@ -158,9 +158,9 @@ nav ul li a:hover {
 
 /* start: hero styles */
 #hero-image {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg") top center
-    no-repeat;
-  height: 820px;
+  /* background: url("https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg") top center
+    no-repeat; */
+  height: 750px;
 }
 
 .hero-marketing-text {
@@ -176,18 +176,18 @@ nav ul li a:hover {
 .hero-marketing-text h1 {
   color: #eee;
   font-size: 3.5em;
-  font-weight: 300;
+  font-weight: 800;
   margin: 0.5em 0;
 }
 
 .hero-marketing-text span {
-  color: #ffb320;
+  color: #7f00ff;
 }
 
 .hero-marketing-text h5 {
   color: #eee;
   font-size: 0.85em;
-  font-weight: 300;
+  font-weight: 500;
   max-width: 500px;
   line-height: 2;
   margin-bottom: 2.5em;
