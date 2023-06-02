@@ -161,7 +161,7 @@ nav ul li a:hover {
   /* background: url("https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg") top center
     no-repeat; */
   /* background: linear-gradient(to left, #8942a8, #ba382f); */
-  background-image: url(assets/4127298.jpg) ;
+  background-image: url(assets/4127298.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px;
@@ -191,7 +191,7 @@ nav ul li a:hover {
 
 .hero-marketing-text h5 {
   color: #eee;
-  font-size: 0.85em;
+  font-size: 1em;
   font-weight: 500;
   max-width: 500px;
   line-height: 2;
@@ -225,8 +225,8 @@ nav ul li a:hover {
   flex-basis: 25%;
   background-color: #ffb320;
   padding: 25px;
-  margin: 0;
-  text-align: right;
+  margin-top: 50px;
+  text-align: center;
   color: #eee;
   font-size: 1.2em;
 }
