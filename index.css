@@ -210,6 +210,17 @@ nav ul li a:hover {
 }
 /* end: hero styles */
 
+/* About */
+#about {
+  background-color: #eef2f6;
+  border-top: 1px solid #d6dee7;
+  border-bottom: 1px solid #d6dee7;
+  padding: 20px 0 80px;
+}
+#about h1 {
+  text-align: center;
+}
+
 /* start: latest news styles */
 #latest-news {
   margin-bottom: 75px;
