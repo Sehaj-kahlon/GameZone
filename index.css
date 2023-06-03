@@ -161,7 +161,7 @@ nav ul li a:hover {
   /* background: url("https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg") top center
     no-repeat; */
   /* background: linear-gradient(to left, #8942a8, #ba382f); */
-  background-image: url(assets/4127298.jpg);
+  background-image: url(assets/background.2jpg.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -671,6 +671,9 @@ footer ul li a {
   .hero-marketing-text {
     margin-top: -150px;
   }
+  #hero-image {
+    background-size: cover;
+  }
 }
 
 @media (max-width: 991px) {
@@ -757,6 +760,9 @@ footer ul li a {
     flex-basis: 100%;
     text-align: center;
     padding: 0;
+  }
+  #hero-image {
+    background-size: cover;
   }
 } /* end 991px */
 
@@ -862,6 +868,9 @@ footer ul li a {
   footer ul li a {
     font-size: 0.75em;
   }
+  #hero-image {
+    background-size: cover;
+  }
 } /* end 767px */
 
 @media (max-width: 400px) {
@@ -886,6 +895,7 @@ footer ul li a {
   }
   #hero-image {
     height: 800px;
+    background-size: cover;
   }
 }
 /* end: media queries */
