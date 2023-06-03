@@ -210,7 +210,7 @@ nav ul li a:hover {
 }
 /* end: hero styles */
 
-/* About */
+/* start : About */
 #about {
   background-color: #7f00ff;
   border-top: 1px solid #d6dee7;
@@ -218,6 +218,7 @@ nav ul li a:hover {
   padding: 20px 0 80px;
   color: white;
 }
+
 #about h1 {
   text-align: center;
   color: white;
@@ -229,101 +230,7 @@ nav ul li a:hover {
   font-size: 1rem;
   line-height: 2;
 }
-
-/* start: latest news styles */
-#latest-news {
-  margin-bottom: 75px;
-}
-
-#latest-news .flex {
-  justify-content: flex-start;
-  max-width: 100%;
-  padding: 0;
-}
-
-#latest-news .flex h5 {
-  flex-basis: 25%;
-  background-color: #ffb320;
-  padding: 25px;
-  margin-top: 50px;
-  text-align: center;
-  color: #eee;
-  font-size: 1.2em;
-}
-
-#latest-news-container {
-  background-color: #131313;
-  position: relative;
-  flex-basis: 75%;
-  padding: 25px;
-}
-
-#latest-news-container .badge {
-  margin-right: 20px;
-}
-
-#latest-news-container .latest-news-text {
-  color: #eee;
-}
-/* end: latest news styles */
-
-/* start: game types styles */
-#game-types-boxes {
-  margin-bottom: 75px;
-}
-
-#game-types-boxes .box {
-  flex-basis: 25%;
-  position: relative;
-  height: 380px;
-}
-
-#game-types-boxes .box.new {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/wow_lady.jpg") top center
-    no-repeat;
-  background-size: cover;
-}
-
-#game-types-boxes .box.strategy {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/robotic_ninja.jpg") top center
-    no-repeat;
-  background-size: cover;
-}
-
-#game-types-boxes .box.rpg {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/jeep_armed.jpg") top center
-    no-repeat;
-  background-size: cover;
-}
-
-#game-types-boxes .box.racing {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/sports_car.jpg") top center
-    no-repeat;
-  background-size: cover;
-}
-
-#game-types-boxes .box .badge {
-  position: relative;
-  z-index: 2;
-  top: 20px;
-  left: 20px;
-}
-
-#game-types-boxes .box .contents {
-  position: absolute;
-  z-index: 2;
-  bottom: 20px;
-  left: 0;
-  color: #eee;
-  padding: 0 35px 0 25px;
-}
-
-#game-types-boxes .box .contents a {
-  font-size: 0.8em;
-  font-weight: 300;
-  color: #999;
-}
-/* end: game types styles */
+/* end : About  */
 
 /* start: recent games styles */
 #recent-games {
