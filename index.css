@@ -212,13 +212,15 @@ nav ul li a:hover {
 
 /* About */
 #about {
-  background-color: #eef2f6;
+  background-color: #7f00ff;
   border-top: 1px solid #d6dee7;
   border-bottom: 1px solid #d6dee7;
   padding: 20px 0 80px;
+  color: white;
 }
 #about h1 {
   text-align: center;
+  color: white;
 }
 
 /* start: latest news styles */
@@ -654,7 +656,7 @@ footer ul li a {
     max-width: 1000px;
   }
 
-  .latest-news-item {
+  #about{
     font-size: 0.8em;
   }
 
@@ -665,6 +667,9 @@ footer ul li a {
   #tournaments .box .tournaments-content h3 {
     font-size: 1.4em;
     margin-bottom: 0.2em;
+  }
+  .hero-marketing-text {
+    margin-top: -150px;
   }
 }
 
@@ -677,9 +682,8 @@ footer ul li a {
     margin: 0 12px;
     font-size: 0.85em;
   }
-
-  #latest-news .flex h5 {
-    width: 15%;
+  .hero-marketing-text {
+    margin-top: -150px;
   }
 
   #game-types-boxes .flex {
@@ -803,14 +807,14 @@ footer ul li a {
   }
 
   .hero-marketing-text h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
 
   #latest-news .flex h5 {
     display: none;
   }
 
-  #latest-news-container {
+  #about {
     flex-basis: 100%;
   }
 
@@ -865,7 +869,10 @@ footer ul li a {
     width: 150px;
     margin-top: 2px;
   }
+  #hero-image {
+    height: 1200px;
 
+  }
   #login-register-button {
     padding: 10px;
     font-size: 0.65em;
@@ -873,6 +880,12 @@ footer ul li a {
 
   #tournaments .box .tournaments-image {
     height: 220px;
+  }
+  .hero-marketing-text {
+    margin-top: -1px;
+  }
+  #hero-image {
+    height: 800px;
   }
 }
 /* end: media queries */
