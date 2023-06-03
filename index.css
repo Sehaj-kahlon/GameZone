@@ -146,14 +146,6 @@ nav ul li a:hover {
   color: #7f00ff;
 }
 
-#login-register-button {
-  background-color: #ffb320;
-  color: #131313;
-  border-radius: 20px;
-  padding: 10px 15px;
-  font-size: 0.85em;
-  font-weight: 600;
-}
 /* end: header styles */
 
 /* start: hero styles */
@@ -234,19 +226,29 @@ nav ul li a:hover {
 
 /* start: recent games styles */
 #recent-games {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png") top center
-    no-repeat;
+  /* background: url("https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png") top center
+    no-repeat; */
   background-color: #eef2f6;
   border-top: 1px solid #d6dee7;
   border-bottom: 1px solid #d6dee7;
-  padding: 70px 0 120px;
+  padding: 20px 0 90px;
 }
-
 #recent-games h1 {
   text-align: center;
   font-weight: 600;
+  padding-bottom: 20px;
 }
-
+#recent-games .flex {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+#recent-games .row {
+  display: flexbox;
+}
 #recent-games .box {
   position: relative;
   flex-basis: 31%;
@@ -278,88 +280,23 @@ nav ul li a:hover {
 }
 /* end: recent games styles */
 
-/* start: tournaments styles */
-#tournaments {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png") 0 0
-    repeat;
-  padding: 125px 0 105px;
-}
-
-#tournaments .flex {
-  position: relative;
-}
-
-#tournaments .badge {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
-#tournaments .badge.tournaments {
-  top: -32px;
-  left: 15px;
-}
-
-#tournaments .box {
-  background-color: #252525;
-  padding: 70px 20px 40px;
-  flex-basis: 45%;
-  position: relative;
-}
-
-#tournaments .box .tournaments-image {
-  float: left;
-  width: 30%;
-}
-
-#tournaments .box .tournaments-image img {
-  width: 100%;
-}
-
-#tournaments .box .tournaments-content {
-  float: left;
-  margin-left: 25px;
-  width: 60%;
-}
-
-#tournaments .box .tournaments-content h3 {
-  color: #ffb320;
-  margin-top: 0;
-}
-
-#tournaments .box .tournaments-content label {
-  color: #999;
-  font-size: 0.75em;
-}
-
-#tournaments .box .tournaments-content label.prizes {
-  color: #ffb320;
-  display: inline-block;
-  margin-top: 12px;
-}
-
-#tournaments .box .tournaments-content strong {
-  color: #eee;
-  font-size: 0.75em;
-}
-/* end: tournaments styles */
-
 /* start: recent reviews styles */
 #recent-reviews {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/recent_reviews_bg.png") top right
-    no-repeat;
+  background-color: #7f00ff;
   background-size: cover;
-  padding: 75px 0 50px;
+  padding: 25px 0 100px;
 }
 
 #recent-reviews h1 {
+  color: white;
   text-align: center;
-  margin-bottom: 1.65em;
+  font-weight: 600;
+  padding-bottom: 20px;
 }
 
 #recent-reviews .box {
   flex-basis: 23%;
+  background-color: white;
   position: relative;
   text-align: center;
 }
