@@ -342,7 +342,7 @@ nav ul li a:hover {
 /* start: posts/comments styles */
 #posts-comments {
   background: url("assets/Contact_background.png") 0 0 no-repeat;
-  
+
   padding: 75px 0;
 }
 
@@ -356,25 +356,20 @@ nav ul li a:hover {
   margin-top: 0px;
   font-weight: 300;
   color: white;
-  
 }
-
 
 #posts-comments .game-warrior .developer {
   color: #ffff;
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.5;
-  
 }
-#posts-comments .game-warrior .developer .icons{
+#posts-comments .game-warrior .developer .icons {
   color: #ffff;
   list-style-type: none;
   display: flex;
   position: relative;
   flex-basis: 23%;
-  
-  
 }
 
 #posts-comments .game-warrior img {
