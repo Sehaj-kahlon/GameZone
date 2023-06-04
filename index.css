@@ -284,7 +284,8 @@ nav ul li a:hover {
 #screens-gallery {
   background-color: #7f00ff;
   background-size: cover;
-  padding: 25px 0 100px;
+  padding: 25px 0 50px;
+
 }
 
 #screens-gallery h1 {
