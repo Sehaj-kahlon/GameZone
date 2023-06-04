@@ -341,7 +341,7 @@ nav ul li a:hover {
 
 /* start: posts/comments styles */
 #posts-comments {
-  background: url("https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png") 0 0
+  background: url("assets/contact_background.png") 0 0
     repeat;
   padding: 75px 0;
 }
