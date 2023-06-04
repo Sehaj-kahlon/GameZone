@@ -281,62 +281,60 @@ nav ul li a:hover {
 /* end: recent games styles */
 
 /* start: recent reviews styles */
-#recent-reviews {
+#screens-gallery {
   background-color: #7f00ff;
   background-size: cover;
   padding: 25px 0 100px;
 }
 
-#recent-reviews h1 {
+#screens-gallery h1 {
   color: white;
   text-align: center;
   font-weight: 600;
   padding-bottom: 20px;
 }
-
-#recent-reviews .box {
-  flex-basis: 23%;
-  background-color: white;
+#screens-gallery .gallery {
   position: relative;
-  text-align: center;
+  height: auto;
+  width: 75%;
+  margin: auto;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2vh;
+  grid-auto-flow: dense;
 }
-
-#recent-reviews .box .rating-badge {
-  border-radius: 28px;
-  padding: 13px;
-  font-size: 1.1em;
-  color: #eee;
-  font-weight: 600;
-  background-color: #ffb320;
-  position: absolute;
-  top: -30px;
-  left: 30px;
-}
-
-#recent-reviews .box .rating-badge.purple {
-  background-color: #694eae;
-}
-
-#recent-reviews .box .rating-badge.green {
-  background-color: #4eae60;
-}
-
-#recent-reviews .box .rating-badge.violet {
-  background-color: #ff20ae;
-}
-
-#recent-reviews .box .recent-reviews-image {
-  margin-bottom: 0.75em;
+#screens-gallery .gallery .img {
+  position: relative;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
-
-#recent-reviews .box .recent-reviews-image img {
+#screens-gallery .gallery .img:first-child {
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+#screens-gallery .gallery .img:nth-child(2n + 3) {
+  grid-row-start: span 1;
+}
+#screens-gallery .gallery .img:nth-child(4n + 5) {
+  grid-column-start: span 2;
+  grid-row-start: span 1;
+}
+#screens-gallery .gallery .img:nth-child(6n + 7) {
+  grid-row-start: span 1;
+}
+#screens-gallery .gallery .img:nth-child(8n + 9) {
+  grid-column-start: span 1;
+  grid-row-start: span 1;
+}
+#screens-gallery .gallery .img img {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
 }
 
-#recent-reviews .box p {
-  color: #999;
-}
 /* end: recent reviews styles */
 
 /* start: posts/comments styles */
@@ -602,15 +600,11 @@ footer ul li a:hover {
     width: 100%;
   }
 
-  #recent-reviews {
-    background: none;
-  }
-
-  #recent-reviews .flex {
+  #screens-gallery .flex {
     flex-wrap: wrap;
   }
 
-  #recent-reviews .box {
+  #screens-gallery .box {
     flex-basis: 48%;
     margin-bottom: 45px;
   }
@@ -740,11 +734,11 @@ footer ul li a:hover {
     height: 400px;
   }
 
-  #recent-reviews .box {
+  #screens-gallery .box {
     flex-basis: 100%;
   }
 
-  #recent-reviews .box .recent-reviews-image {
+  #screens-gallery .box .screens-gallery-image {
     height: 400px;
   }
 
