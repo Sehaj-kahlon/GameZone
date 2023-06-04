@@ -347,7 +347,6 @@ nav ul li a:hover {
 
 #posts-comments .game-warrior {
   flex-basis: 32%;
-
 }
 
 #posts-comments .game-warrior p {
@@ -363,28 +362,26 @@ nav ul li a:hover {
   font-weight: 600;
   line-height: 1.5;
 }
-#posts-comments .game-warrior .developer a{
+#posts-comments .game-warrior .developer a {
   color: #ffff;
 }
 #posts-comments .game-warrior .developer span {
   font-size: 1.6rem;
-text-decoration: underline;
-color: #999;
-
+  text-decoration: underline;
+  color: #999;
 }
 #posts-comments .game-warrior .developer .icons {
   font-size: 1.3rem;
   display: flex;
   margin-top: 30px;
-
 }
-#posts-comments .game-warrior .developer .icons li{
+#posts-comments .game-warrior .developer .icons li {
   display: flex;
   flex-basis: 20%;
   margin-top: 10px;
- position: relative;
+  position: relative;
 }
-#posts-comments .game-warrior .developer .icons a:hover{
+#posts-comments .game-warrior .developer .icons a:hover {
   color: #7f00ff;
 }
 
@@ -405,10 +402,12 @@ color: #999;
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
   min-height: 300px;
+  text-align: center;
 }
 
 #posts-comments .posts-comments-box h3 {
   color: #eee;
+  font-weight: 400;
 }
 
 .post-item {
