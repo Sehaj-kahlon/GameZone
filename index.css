@@ -341,8 +341,7 @@ nav ul li a:hover {
 
 /* start: posts/comments styles */
 #posts-comments {
-  background: url("assets/contact_background.png") 0 0
-    repeat;
+  background: url("assets/contact_background.png") 0 0 no-repeat;
   padding: 75px 0;
 }
 
@@ -354,6 +353,23 @@ nav ul li a:hover {
 #posts-comments .game-warrior p {
   color: #eee;
   font-weight: 600;
+}
+#posts-comments .game-warrior .developer {
+  color: #ffff;
+  margin-top: 250px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  
+}
+#posts-comments .game-warrior .developer .icons{
+  color: #ffff;
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  flex-basis: 23%;
+  
+  
 }
 
 #posts-comments .game-warrior img {
@@ -367,10 +383,11 @@ nav ul li a:hover {
 }
 
 #posts-comments .posts-comments-box {
-  flex-basis: 28%;
+  flex-basis: 50%;
   background-color: #252525;
   padding: 20px 20px 25px;
   border: 1px solid #4a4a4a;
+  border-radius: 1rem;
 }
 
 #posts-comments .posts-comments-box h3 {
@@ -592,7 +609,8 @@ footer ul li a:hover {
   }
 
   #posts-comments .posts-comments-box {
-    flex-basis: 43%;
+    flex-basis: 30%;
+    /* height: 400px; */
   }
 
   #posts-comments .game-warrior img.footer-graphic {
@@ -618,6 +636,9 @@ footer ul li a:hover {
   }
   #hero-image {
     background-size: cover;
+  }
+  #posts-comments .game-warrior .developer {
+    margin-top: 20px;
   }
 } /* end 991px */
 
