@@ -363,12 +363,17 @@ nav ul li a:hover {
   font-weight: 600;
   line-height: 1.5;
 }
+#posts-comments .game-warrior .developer a{
+  color: #ffff;
+}
 #posts-comments .game-warrior .developer span {
+  font-size: 1.6rem;
 text-decoration: underline;
 color: #999;
+
 }
 #posts-comments .game-warrior .developer .icons {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: flex;
   margin-top: 30px;
 
@@ -380,7 +385,7 @@ color: #999;
  position: relative;
 }
 #posts-comments .game-warrior .developer .icons a:hover{
-  color: white;
+  color: #7f00ff;
 }
 
 #posts-comments .game-warrior img {
