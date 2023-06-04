@@ -341,7 +341,8 @@ nav ul li a:hover {
 
 /* start: posts/comments styles */
 #posts-comments {
-  background: url("assets/contact_background.png") 0 0 no-repeat;
+  background: url("assets/Contact_background.png") 0 0 no-repeat;
+  
   padding: 75px 0;
 }
 
@@ -351,12 +352,16 @@ nav ul li a:hover {
 }
 
 #posts-comments .game-warrior p {
-  color: #eee;
-  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 0px;
+  font-weight: 300;
+  color: white;
+  
 }
+
+
 #posts-comments .game-warrior .developer {
   color: #ffff;
-  margin-top: 250px;
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.5;
@@ -388,6 +393,7 @@ nav ul li a:hover {
   padding: 20px 20px 25px;
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
+  min-height: 300px;
 }
 
 #posts-comments .posts-comments-box h3 {
