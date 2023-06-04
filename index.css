@@ -500,6 +500,9 @@ footer ul li a {
   color: #ddd;
   font-size: 0.8em;
 }
+footer ul li a:hover {
+  color: #7f00ff;
+}
 /* end: footer styles */
 
 /* start: media queries */
