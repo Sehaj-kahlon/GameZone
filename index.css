@@ -275,10 +275,6 @@ nav ul li a:hover {
   justify-content: space-between;
   flex-basis: 42%;
 }
-#recent-games .games .flex .game-info .play-button {
-  justify-content: right;
-  margin-right: 0px;
-}
 #recent-games .games .flex .game-info h4 {
   text-align: center;
   font-size: 1.5rem;
@@ -308,6 +304,34 @@ nav ul li a:hover {
   text-align: center;
   font-weight: 600;
   padding-bottom: 20px;
+}
+#recent-games .games .flex .game-info .play-button button {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 1em 2em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.third {
+  border-color: blue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+  }
 }
 /* end: recent games styles */
 
