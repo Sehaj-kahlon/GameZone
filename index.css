@@ -239,16 +239,26 @@ nav ul li a:hover {
   margin: auto;
   position: relative;
 }
+#recent-games .games .flex hr {
+  border: 5px solid #cc0f0f;
+  color: black;
+  border-radius: 3px;
+  box-shadow: 0 0 5px red;
+  padding: 0;
+  animation: glow 1.5s ease-in-out infinite;
+  -webkit-animation: glow 1.5s ease-in-out infinite;
+}
 #background-video {
   max-width: 600px;
   margin: auto;
+  border-radius: 0.5rem;
 }
 #recent-games .games .flex {
   display: flex;
   padding: 0 15px;
   margin-bottom: 100px;
   justify-content: space-between;
-  flex-basis: 23%;
+  flex-basis: 21%;
 }
 #recent-games .games .flex .game-info {
   padding: 0 15px;
@@ -270,7 +280,7 @@ nav ul li a:hover {
   padding: 25px 0 50px;
   margin: auto;
 }
-#screens-gallery .flex{
+#screens-gallery .flex {
   max-width: 1200px;
   margin: auto;
 }
