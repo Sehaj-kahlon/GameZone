@@ -237,20 +237,29 @@ nav ul li a:hover {
   max-width: 1200px;
   display: grid;
   margin: auto;
+  position: relative;
 }
-
+#background-video {
+  max-width: 600px;
+  margin: auto;
+}
 #recent-games .games .flex {
   display: flex;
   padding: 0 15px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   justify-content: space-between;
   flex-basis: 23%;
+}
+#recent-games .games .flex .game-info{
+  padding: 0 15px;
+  justify-content: space-between;
+  flex-basis: 40%;
 }
 #recent-games h1 {
   padding-top: 20px;
   text-align: center;
   font-weight: 600;
-  /* padding-bottom: 20px; */
+  padding-bottom: 20px;
 }
 /* end: recent games styles */
 
