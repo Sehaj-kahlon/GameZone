@@ -316,9 +316,14 @@ nav ul li a:hover {
   color: white;
   justify-content: center;
 }
-.Containers {
-  display: none;
+.slideshow-container {
+  position: relative;
+  margin: auto;
 }
+
+/* .Containers {
+  display: none;
+} */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.4s;
