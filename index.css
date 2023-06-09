@@ -269,7 +269,7 @@ nav ul li a:hover {
   margin-bottom: 100px;
   justify-content: space-between;
   flex-basis: 21%;
-  border: 5px solid green;
+  border: 5px solid #7f00ff;
 }
 #recent-games .games .flex .game-info {
   padding: 0 15px;
