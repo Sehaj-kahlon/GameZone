@@ -265,10 +265,11 @@ nav ul li a:hover {
 }
 #recent-games .games .flex {
   display: flex;
-  padding: 0 15px;
+  padding: 10px 15px;
   margin-bottom: 100px;
   justify-content: space-between;
   flex-basis: 21%;
+  border: 5px solid green;
 }
 #recent-games .games .flex .game-info {
   padding: 0 15px;
