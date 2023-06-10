@@ -296,14 +296,13 @@ nav ul li a:hover {
   flex-basis: 42%;
 }
 #recent-games .games .flex .game-info h4 {
+  color: rgba(168, 239, 255, 1);
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 0px;
-  margin-bottom: auto;
 }
 #recent-games .games .flex .game-info h5 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   text-decoration: underline;
 }
@@ -316,8 +315,6 @@ nav ul li a:hover {
 #recent-games .games .flex .game-info li:hover {
   color: rgba(168, 239, 255, 1);
   font-size: 1.1rem;
-
-
 }
 #recent-games .games .flex .game-info p {
   text-align: center;
@@ -326,6 +323,7 @@ nav ul li a:hover {
   line-height: 1.5rem;
 }
 #recent-games h1 {
+  color: rgba(168, 239, 255, 1);
   padding-top: 20px;
   text-align: center;
   font-weight: 600;
