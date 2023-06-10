@@ -229,10 +229,11 @@ nav ul li a:hover {
   /* background: url("https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png") top center
     no-repeat; */
 
-  background: #f5f5ff;
+  background: #111111;
   border-top: 1px solid #d6dee7;
   border-bottom: 1px solid #d6dee7;
   padding: 20px 0 90px;
+  color: white;
 }
 #recent-games .games {
   max-width: 1500px;
@@ -269,8 +270,15 @@ nav ul li a:hover {
   margin-bottom: 100px;
   justify-content: space-between;
   flex-basis: 21%;
-  border: 5px solid #7f00ff;
+  /* border: 5px solid #7f00ff; */
+  background: transparent;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5);
 }
+
 #recent-games .games .flex .game-info {
   padding: 0 15px;
   justify-content: space-between;
