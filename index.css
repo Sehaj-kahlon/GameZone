@@ -336,6 +336,12 @@ nav ul li a:hover {
   margin-top: 0px;
   list-style-type: "※ ";
 }
+#recent-games .games .flex .game-info li:hover {
+  color: rgba(168, 239, 255, 1);
+  font-size: 1.1rem;
+
+
+}
 #recent-games .games .flex .game-info p {
   text-align: center;
   font-size: 1rem;
