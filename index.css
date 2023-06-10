@@ -372,11 +372,20 @@ nav ul li a:hover {
   grid-auto-flow: dense;
 }
 #screens-gallery .gallery .img {
+  background-color: white;
   position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
+  border-radius: 1rem;
 }
+#screens-gallery .gallery .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
 #screens-gallery .gallery .img:first-child {
   grid-column-start: span 2;
   grid-row-start: span 2;
@@ -394,12 +403,6 @@ nav ul li a:hover {
 #screens-gallery .gallery .img:nth-child(8n + 9) {
   grid-column-start: span 1;
   grid-row-start: span 1;
-}
-#screens-gallery .gallery .img img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 1rem;
 }
 
 /* end: recent reviews styles */
