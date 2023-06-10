@@ -76,7 +76,27 @@
             <div class="games">
                 <div class="flex">
                     <!-- <hr class="line1"> -->
-                    <div class="game-video">
+                    <div class="carousel" data-carousel>
+                        <div class="carousel-buttons">
+                            <button class="carousel-button carousel-button_previous" data-carousel-button-previous>
+                                <span class="fas fa-chevron-circle-left"></span>
+                            </button>
+                            <button class="carousel-button carousel-button_next" data-carousel-button-next>
+                                <span class="fas fa-chevron-circle-right"></span>
+                            </button>
+                        </div>
+                        <div class="slides" data-carousel-slides-container>
+                            <div class="slide">
+                                <!-- Anything can be here. Each slide can have any content -->
+                                <h2>Slide 1 heading</h2>
+                                <p>Slide 1 content
+                            </div>
+                            <div class="slide">
+                                <!-- Anything can be here. Each slide can have any content -->
+                                <h2>Slide 2 heading</h2>
+                                <p>Slide 2 content
+                            </div>
+                        </div>
                     </div>
                     <div class="game-info">
                         <h4>QuizzApp</h4>
@@ -93,9 +113,7 @@
                             <li>Player can save its score along with the name</li>
                             <li>Top Scores can be seen on the High Scores page</li>
                         </ul>
-                        <div class="play-button">
-                            <button class="third" onclick="">PLAY NOW</button>
-                        </div>
+                        <button class="custom-btn btn-3"><span>PLAY NOW</span></button>
                     </div>
 
                 </div>
@@ -112,9 +130,7 @@
                             <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <hr class="line2">
                 </div>
-
             </div>
         </section>
 
