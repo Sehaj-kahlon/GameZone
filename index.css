@@ -412,6 +412,13 @@ nav ul li a:hover {
 .btn-3 span:hover:after {
   width: 100%;
 }
+.slide img{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  max-width: 600px;
+  max-height: 500px;
+}
 /* end: recent games styles */
 
 /* start: recent reviews styles */
@@ -715,29 +722,8 @@ footer ul li a:hover {
     margin-top: -150px;
   }
 
-  #game-types-boxes .flex {
-    flex-wrap: wrap;
-  }
-
-  #game-types-boxes .box {
-    flex-basis: 50%;
-  }
-
-  #tournaments .box {
-    flex-basis: 42%;
-  }
-
-  #tournaments .box .tournaments-image {
-    float: none;
-    width: 100%;
-    margin-bottom: 10px;
-    height: 250px;
-    overflow: hidden;
-  }
-
-  #tournaments .box .tournaments-content {
-    margin-left: 0;
-    width: 100%;
+  #recent-games .games .flex {
+    display: grid;
   }
 
   #screens-gallery .flex {
@@ -860,20 +846,14 @@ footer ul li a:hover {
     margin-bottom: 30px;
   }
 
-  #recent-games .flex,
-  #tournaments .flex {
+  #recent-games .flex{
     flex-wrap: wrap;
   }
-
-  #tournaments .box {
-    flex-basis: 100%;
-    margin-bottom: 20px;
+  #recent-games .games {
+    display: flex;
+    margin: auto;
+    position: relative;
   }
-
-  #tournaments .box .tournaments-image {
-    height: 400px;
-  }
-
   #screens-gallery .box {
     flex-basis: 100%;
   }
