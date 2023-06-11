@@ -202,7 +202,6 @@ nav ul li a:hover {
   color: #eee;
   font-size: 1.1em;
   font-weight: 700;
-  max-width: 600px;
   line-height: 2;
   margin-bottom: 2.5em;
 }
@@ -271,7 +270,7 @@ nav ul li a:hover {
   padding: 10px 15px;
   margin-bottom: 100px;
   justify-content: space-between;
-  flex-basis: 21%;
+  flex-basis: 25%;
   border: 0.35rem solid;
   background: transparent;
   overflow: hidden;
@@ -293,7 +292,7 @@ nav ul li a:hover {
 #recent-games .games .flex .game-info {
   padding: 0 15px;
   justify-content: space-between;
-  flex-basis: 42%;
+  flex-basis: 45%;
 }
 #recent-games .games .flex .game-info h4 {
   color: rgba(168, 239, 255, 1);
@@ -350,7 +349,7 @@ nav ul li a:hover {
   width: 130px;
   height: 40px;
   line-height: 42px;
-  padding: 0;
+  padding: 0px;
   border: none;
 }
 .btn-3 span {
@@ -416,9 +415,10 @@ nav ul li a:hover {
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
-  max-width: 600px;
+  max-width: 550px;
   max-height: 500px;
 }
+
 /* end: recent games styles */
 
 /* start: recent reviews styles */
