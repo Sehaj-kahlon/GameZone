@@ -411,12 +411,37 @@ nav ul li a:hover {
 .btn-3 span:hover:after {
   width: 100%;
 }
+.slider{
+  overflow: hidden;
+}
+.slides{
+  display: flex;
+}
+.slides input{
+  display: none;
+}
+.slide{
+  transition: 2s;
+}
 .slide img{
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
   max-width: 550px;
   max-height: 500px;
+  border-radius: 5px;
+}
+.navigation-manual{
+  position:absolute;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manula-btn{
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 /* end: recent games styles */
