@@ -119,11 +119,8 @@ strong {
 
 /* start: header styles */
 header {
-  /* background: rgb(119, 7, 55); */
-  /* background: linear-gradient(45deg, rgba(119, 7, 55, 1) 36%, rgba(2, 0, 36, 1) 100%); */
   padding: 20px 0;
   position: relative;
-  /* border-bottom: 1px solid #7f00ff; */
 }
 
 .hamburger-menu {
