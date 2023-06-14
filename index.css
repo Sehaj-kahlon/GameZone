@@ -164,14 +164,10 @@ nav ul li a:hover {
 
 /* start: hero styles */
 #hero-image {
-  /* background: url("https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg") top center
-    no-repeat; */
-  /* background: linear-gradient(to left, #8942a8, #ba382f); */
   background-image: url(assets/background.2jpg.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
-  /* width: 100%; */
 }
 
 .hero-marketing-text {
