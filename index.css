@@ -505,7 +505,7 @@ nav ul li a:hover {
 /* start: posts/comments styles */
 #posts-comments {
   background: url("assets/Contact_background.png") 0 0 no-repeat;
-  padding: 75px 0;
+  padding: 50px 0;
 }
 
 #posts-comments .game-warrior {
@@ -560,7 +560,7 @@ nav ul li a:hover {
 
 #posts-comments .contact-form {
   /* flex-basis: 50%; */
-  background-color: #252525;
+  background-color: #111111;
   /* padding: 20px 20px 25px; */
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
@@ -575,19 +575,71 @@ nav ul li a:hover {
 /* .contact-form form {
   padding: 0px 0 0 0;
 } */
+.input {
+  background-color: #303245;
+  border-radius: 10px;
+  border: 0;
+  color: #eee;
+  font-size: 16px;
+  outline: 0;
+  /* padding: 4px 20px 0; */
+  padding: 20px;
+}
+.cut {
+  background-color: #15172b;
+  border-radius: 10px;
+  position: absolute;
+  top: -10px;
+  transform: translateY(0);
+  transition: transform 200ms;
+}
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(10px);
+}
+.placeholder {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 20px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.95);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: white;
+}
 .contact-form form .form-row {
   display: flex;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 form .form-row .input-data {
   width: 100%;
   font-size: 16px;
   position: relative;
-  color: white;
+  padding: 10px;
 }
-.textarea textarea {
+.textarea  textarea{
   resize: none;
   padding-top: 10px;
+  background-color: #303245;
+  border-radius: 10px;
+  border: 0;
+  color: #eee;
+  font-size: 16px;
+  outline: 0;
+  padding: 20px;
 }
 .input-data label {
   pointer-events: none;
@@ -600,57 +652,7 @@ form .form-row .input-data {
 .textarea textarea {
   border: none;
   font-size: 16px;
-  border-bottom: 2px solid white;
-}
-.input-data input:focus ~ label,
-.textarea textarea:focus ~ label {
-  transform: translateY(-20px);
-  font-size: 14px;
-  color: #7f00ff;
-}
-.input-data .underline {
-  /* position: absolute; */
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-  color: #7f00ff;
-}
-.input-data .underline:before {
-  /* position: absolute; */
-  content: "";
-  height: 2px;
-  width: 100%;
-  background: white;
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 0.3s ease;
-}
-.input-data input:focus ~ .underline:before,
-.textarea textarea:focus ~ .underline:before {
-  transform: scale(1);
-}
-.submit-btn .input-data {
-  overflow: hidden;
-}
-.submit-btn .input-data .inner {
-  position: absolute;
-  left: -100%;
-  transition: all 0.4s;
-}
-.submit-btn .input-data:hover .inner {
-  left: 0;
-}
-.submit-btn .input-data input {
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
-  position: relative;
-  z-index: 2;
+  padding: 10px;
 }
 /* end: posts/comments styles */
 
