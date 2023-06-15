@@ -560,7 +560,7 @@ nav ul li a:hover {
 
 #posts-comments .contact-form {
   /* flex-basis: 50%; */
-  background-color: #111111;
+  background-color: #15172b;
   /* padding: 20px 20px 25px; */
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
@@ -594,7 +594,9 @@ nav ul li a:hover {
   transition: transform 200ms;
 }
 .input:focus ~ .cut,
-.input:not(:placeholder-shown) ~ .cut {
+.textarea:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut,
+.textarea:not(:placeholder-shown) ~ .cut {
   transform: translateY(10px);
 }
 .placeholder {
@@ -609,15 +611,18 @@ nav ul li a:hover {
   top: 20px;
 }
 .input:focus ~ .placeholder,
-.input:not(:placeholder-shown) ~ .placeholder {
+.textarea:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder{
   transform: translateY(-30px) translateX(10px) scale(0.95);
 }
 
-.input:not(:placeholder-shown) ~ .placeholder {
+.input:not(:placeholder-shown) ~ .placeholder,
+.textarea:not(:placeholder-shown) ~ .placeholder {
   color: #808097;
 }
 
-.input:focus ~ .placeholder {
+.input:focus ~ .placeholder,
+.textarea:focus ~ .placeholder {
   color: white;
 }
 .contact-form form .form-row {
@@ -630,7 +635,7 @@ form .form-row .input-data {
   position: relative;
   padding: 10px;
 }
-.textarea  textarea{
+.textarea {
   resize: none;
   padding-top: 10px;
   background-color: #303245;
