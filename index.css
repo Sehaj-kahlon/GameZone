@@ -61,6 +61,7 @@ strong {
   line-height: 2;
   font-size: 0.85em;
   font-weight: 300;
+  color: white;
 }
 .flex {
   display: flex;
@@ -593,10 +594,7 @@ form .form-row .input-data {
   bottom: 10px;
   font-size: 16px;
   transition: all 0.3s ease;
-}
-.input-data input {
-  border: none;
-  font-size: 16px;
+  color: white;
 }
 .input-data input,
 .textarea textarea {
@@ -605,19 +603,17 @@ form .form-row .input-data {
   border-bottom: 2px solid white;
 }
 .input-data input:focus ~ label,
-.textarea textarea:focus ~ label,
-.input-data input:valid ~ label,
-.textarea textarea:valid ~ label {
+.textarea textarea:focus ~ label {
   transform: translateY(-20px);
   font-size: 14px;
-  color: #3498db;
+  color: #7f00ff;
 }
 .input-data .underline {
   /* position: absolute; */
   bottom: 0;
   height: 2px;
   width: 100%;
-  color: #3498db;
+  color: #7f00ff;
 }
 .input-data .underline:before {
   /* position: absolute; */
@@ -630,9 +626,7 @@ form .form-row .input-data {
   transition: transform 0.3s ease;
 }
 .input-data input:focus ~ .underline:before,
-.input-data input:valid ~ .underline:before,
-.textarea textarea:focus ~ .underline:before,
-.textarea textarea:valid ~ .underline:before {
+.textarea textarea:focus ~ .underline:before {
   transform: scale(1);
 }
 .submit-btn .input-data {
