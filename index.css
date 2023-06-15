@@ -557,43 +557,77 @@ nav ul li a:hover {
   width: 115%;
 }
 
-#posts-comments .posts-comments-box {
+#posts-comments .contact-form {
   /* flex-basis: 50%; */
   background-color: #252525;
   /* padding: 20px 20px 25px; */
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
+  padding: 10px 40px 0px 40px;
+}
+.contact-form h3 {
+  color: white;
   text-align: center;
-  /* justify-content: center; */
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.contact-form form {
+  padding: 0px 0 0 0;
+}
+.contact-form form .form-row {
   display: flex;
-  flex-direction: column;
-  padding: 2vh 4vw;
-  max-width: 500px;
+  margin: 20px 0;
 }
-
-#posts-comments .posts-comments-box h3 {
-  color: #eee;
-  font-weight: 400;
+form .form-row .input-data {
+  width: 100%;
+  font-size: 16px;
+  position: relative;
+  color: white;
 }
-form input, form textarea{
-  border: 0;
-  margin: 10px;
-  padding: 20px;
-  outline: none;
+.textarea textarea {
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label {
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.input-data input{
+  border: none;
   font-size: 16px;
 }
-form button{
-  padding : 15px;
-  background: #694eae;
-  color: white;
-  font-size: 18px;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-  margin: 20px auto 0;
-  border-radius: 1rem;
+.input-data input:focus ~ label,
+.textarea textarea:focus ~ label,
+.input-data input:valid ~ label,
+.textarea textarea:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #3498db;
 }
-
+.input-data .underline {
+  /* position: absolute; */
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before {
+  /* position: absolute; */
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before {
+  transform: scale(1);
+}
 /* end: posts/comments styles */
 
 /* start: footer styles */
