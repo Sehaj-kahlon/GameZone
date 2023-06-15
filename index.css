@@ -564,7 +564,7 @@ nav ul li a:hover {
   /* padding: 20px 20px 25px; */
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
-  padding: 10px 40px 0px 40px;
+  padding: 10px 30px 10px 30px;
 }
 .contact-form h3 {
   color: white;
@@ -599,13 +599,13 @@ nav ul li a:hover {
 .placeholder {
   color: #65657b;
   font-family: sans-serif;
-  left: 20px;
+  left: 25px;
   line-height: 20px;
   pointer-events: none;
   position: absolute;
   transform-origin: 0 50%;
   transition: transform 200ms, color 200ms;
-  top: 20px;
+  top: 25px;
 }
 .input:focus ~ .placeholder,
 .textarea:focus ~ .placeholder,
@@ -625,13 +625,19 @@ nav ul li a:hover {
 }
 .contact-form form .form-row {
   display: flex;
-  margin: 15px 0;
 }
-form .form-row .input-data {
+.contact-form form .form-col {
+  display: grid;
+  .input{
+    width: 80%;
+  }
+}
+form .form-row .input-data,
+form .form-col .input-data {
   width: 100%;
   font-size: 16px;
   position: relative;
-  padding: 10px;
+  padding: 15px;
 }
 .textarea {
   resize: none;
