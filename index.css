@@ -558,108 +558,42 @@ nav ul li a:hover {
 }
 
 #posts-comments .posts-comments-box {
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
   background-color: #252525;
-  padding: 20px 20px 25px;
+  /* padding: 20px 20px 25px; */
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
-  min-height: 300px;
   text-align: center;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 4vw;
+  max-width: 500px;
 }
 
 #posts-comments .posts-comments-box h3 {
   color: #eee;
   font-weight: 400;
 }
-
-.post-item {
-  margin-top: 25px;
+form input, form textarea{
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  outline: none;
+  font-size: 16px;
+}
+form button{
+  padding : 15px;
+  background: #694eae;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin: 20px auto 0;
+  border-radius: 1rem;
 }
 
-.post-item:first-child {
-  margin-top: 0;
-}
-
-.post-item:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.post-item img {
-  float: left;
-  width: 30%;
-}
-
-.post-item > div {
-  float: left;
-  margin-left: 5%;
-  width: 65%;
-}
-
-.post-item > div h5 {
-  color: #ffb320;
-  font-size: 0.8em;
-  margin-top: 0;
-}
-
-.post-item > div p {
-  color: #eee;
-  margin: 5px 0;
-  font-size: 0.8em;
-}
-
-.post-item > div small {
-  color: #999;
-  font-size: 0.75em;
-}
-
-.comments-item {
-  margin-top: 1em;
-}
-
-.comments-item:first-child {
-  margin-top: 0;
-}
-
-.comments-item:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.comments-item img {
-  width: 23%;
-  height: auto;
-  border-radius: 50%;
-  float: left;
-}
-
-.comments-item > div {
-  float: left;
-  margin-left: 7%;
-  width: 70%;
-}
-
-.comments-item > div p {
-  color: #eee;
-  font-size: 0.8em;
-  margin: 0 0 5px;
-}
-
-.comments-item > div p span {
-  color: #999;
-}
-
-.comments-item > div p span.author {
-  color: #e92159;
-}
-
-.comments-item > div h5 {
-  color: #ffb320;
-  font-size: 0.8em;
-  margin-top: 0;
-}
 /* end: posts/comments styles */
 
 /* start: footer styles */
@@ -760,10 +694,14 @@ footer ul li a:hover {
     flex-basis: 100%;
     margin-bottom: 40px;
   }
-
-  #posts-comments .posts-comments-box {
-    flex-basis: 30%;
+  .posts-comments-box {
+    /* flex-basis: 30%; */
     /* height: 400px; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 4vw;
+    max-width: 600px;
   }
 
   #posts-comments .game-warrior img.footer-graphic {
