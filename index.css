@@ -611,13 +611,14 @@ form .form-row .input-data {
   bottom: 0;
   height: 2px;
   width: 100%;
+  color: white;
 }
 .input-data .underline:before {
   /* position: absolute; */
   content: "";
   height: 2px;
   width: 100%;
-  background: #3498db;
+  background: white;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
