@@ -504,7 +504,7 @@ nav ul li a:hover {
 
 /* start: posts/comments styles */
 #posts-comments {
-  background: url("assets/Contact_background.png") 0 0 no-repeat;
+  background: url("assets/Contact_background.png") 0 0;
   padding: 50px 0;
 }
 
