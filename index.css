@@ -628,7 +628,7 @@ nav ul li a:hover {
 }
 .contact-form form .form-col {
   display: grid;
-  .input{
+  .input {
     width: 80%;
   }
 }
@@ -662,6 +662,13 @@ form .form-col .input-data {
   border: none;
   font-size: 16px;
   padding: 10px;
+}
+.formButtons {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
 }
 /* end: posts/comments styles */
 
