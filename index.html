@@ -197,7 +197,7 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form onsubmit=" sendEmail(); reset(); return false;">
+                    <form method="post">
                         <h3>Contact / Feedback</h3>
                         <div class="form-row">
                             <div class="input-data">
@@ -233,7 +233,7 @@
                             </div>
                         </div>
                         <div class="formButtons">
-                            <button type="submit">Clear</button>
+                            <button id="btn1" type="submit">Clear</button>
                             <button type="submit">Submit</button>
                         </div>
                     </form>
@@ -260,6 +260,28 @@
             navMenu.style.display = navMenu.offsetParent === null ? "block" : "none";
         });
 
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        var btn1 = document.getElementById('btn1');
+        btn1.addEventListener('click', function (e) {
+            e.preventDefault();
+            var firstname = document.getElementById('firstname').value;
+            var lastname = document.getElementById('lastname').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+            Email.send({
+                SecureToken: "764bbeae-9949-4639-8d32-40538ab39768",
+                To: 'sehajkahlon437@gmail.com',
+                From: email,
+                Subject: subject,
+                Body: message
+            }).then(
+                message => alert(message),
+                console.log(e)
+            );
+        })
     </script>
 </body>
 
