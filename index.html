@@ -261,23 +261,6 @@
             navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
         });
     </script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "sehajkahlon437@gmail.com",
-                Password: "Sehaj3389@1",
-                To: 'sehajkahlon437@gmail.com',
-                From: document.getElementById("email").value,
-                Subject: document.getElementById("subject").value,
-                Body: "And this is the body"
-            }).then(
-                message => alert(message)
-            );
-
-        }
-    </script>
 </body>
 
 </html>
