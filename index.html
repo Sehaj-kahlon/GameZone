@@ -233,8 +233,8 @@
                             </div>
                         </div>
                         <div class="formButtons">
-                            <button id="btn1" type="submit">Clear</button>
-                            <button type="submit">Submit</button>
+                            <button type="submit">Clear</button>
+                            <button id="btn1" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -272,14 +272,13 @@
             var subject = document.getElementById('subject').value;
             var message = document.getElementById('message').value;
             Email.send({
-                SecureToken: "764bbeae-9949-4639-8d32-40538ab39768",
+                SecureToken: "3339ce1a-c121-4416-adcc-ac4cadefbe6c",
                 To: 'sehajkahlon437@gmail.com',
                 From: email,
                 Subject: subject,
                 Body: message
             }).then(
-                message => alert(message),
-                console.log(e)
+                message => alert(message)
             );
         })
     </script>
