@@ -750,7 +750,7 @@ footer ul li a:hover {
     background-size: cover;
   }
 }
-
+/* 991 - ipad mini */
 @media (max-width: 991px) {
   .flex {
     max-width: 720px;
@@ -761,7 +761,7 @@ footer ul li a:hover {
     font-size: 0.85em;
   }
   .hero-marketing-text {
-    margin-top: -150px;
+    margin-top: -180px;
   }
 
   #recent-games .games .flex {
@@ -822,6 +822,19 @@ footer ul li a:hover {
   #posts-comments .game-warrior .developer {
     margin-top: 20px;
   }
+  .grid-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-auto-rows: 200px;
+  }
+  #posts-comments .game-warrior .developer .icons li {
+    flex-basis: 10%;
+  }
+  .carousel img {
+    margin: auto;
+  }
+  .contact-form {
+    margin: auto;
+  }
 } /* end 991px */
 
 @media (max-width: 767px) {
@@ -867,7 +880,7 @@ footer ul li a:hover {
   }
 
   .hero-marketing-text {
-    margin-top: -85px;
+    margin-top: -90px;
   }
 
   .hero-marketing-text h1 {
@@ -925,6 +938,7 @@ footer ul li a:hover {
   }
 } /* end 767px */
 
+/* 400 iphone 12pro */
 @media (max-width: 400px) {
   .logo img {
     width: 150px;
@@ -946,26 +960,23 @@ footer ul li a:hover {
     background-size: cover;
   }
   #recent-games {
-    /* justify-content: center; */
     background-size: cover;
-    /* overflow-x: auto; */
-    /* overflow: hidden; */
   }
   #recent-games .games {
     display: grid;
     margin: auto;
-    /* padding: 20px ; */
     position: relative;
   }
   #recent-games .games .flex .game-info {
     max-width: 350px;
   }
+
   .carousel img {
+    margin: auto;
     max-width: 300px;
     max-height: 200px;
     object-fit: cover;
     display: block;
-    /* padding: 20px; */
   }
   .grid-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -973,10 +984,12 @@ footer ul li a:hover {
   }
   #posts-comments .contact-form {
     max-width: 300px;
-    /* max-height: 550px; */
   }
   .textarea {
     width: 250px;
+  }
+  .contact-form {
+    margin: auto;
   }
 }
 /* end: media queries */
