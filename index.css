@@ -237,7 +237,6 @@ nav ul li a:hover {
 /* start: recent games styles */
 #recent-games {
   background: #111111;
-  background-size: cover;
   border-top: 1px solid #d6dee7;
   border-bottom: 1px solid #d6dee7;
   padding: 20px 0;
@@ -936,9 +935,6 @@ footer ul li a:hover {
     font-size: 0.65em;
   }
 
-  #tournaments .box .tournaments-image {
-    height: 220px;
-  }
   .hero-marketing-text {
     margin-top: -1px;
   }
@@ -947,14 +943,16 @@ footer ul li a:hover {
     background-size: cover;
   }
   #recent-games {
-    justify-content: center;
+    /* justify-content: center; */
     background-size: cover;
+    overflow-x: auto;
     /* overflow: hidden; */
   }
   #recent-games .games {
     display: grid;
-    margin: auto;
+    /* margin: auto; */
     padding: 20px;
+    position: relative;
   }
 }
 /* end: media queries */
