@@ -540,8 +540,8 @@ nav ul li a:hover {
 }
 #posts-comments .game-warrior .developer .icons li {
   display: flex;
-  flex-basis: 20%;
-  margin-top: 10px;
+  flex-basis: 15%;
+  /* margin-top: 10px; */
   position: relative;
 }
 #posts-comments .game-warrior .developer .icons a:hover {
@@ -967,10 +967,6 @@ footer ul li a:hover {
   .grid-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: 100px;
-  }
-  #posts-comments .game-warrior .developer .icons li{
-    flex-basis: 15%;
-    margin-bottom: 20px;
   }
 }
 /* end: media queries */
