@@ -237,6 +237,7 @@ nav ul li a:hover {
 /* start: recent games styles */
 #recent-games {
   background: #111111;
+  background-size: cover;
   border-top: 1px solid #d6dee7;
   border-bottom: 1px solid #d6dee7;
   padding: 20px 0;
@@ -559,6 +560,7 @@ nav ul li a:hover {
 }
 
 #posts-comments .contact-form {
+  overflow: hidden;
   /* flex-basis: 50%; */
   background-color: #15172b;
   /* padding: 20px 20px 25px; */
@@ -670,7 +672,7 @@ form .form-col .input-data {
   justify-content: space-between;
   font-size: 16px;
 }
-.formButtons button{
+.formButtons button {
   flex-basis: 25%;
   background-color: #7f00ff;
   color: #fff;
@@ -943,6 +945,16 @@ footer ul li a:hover {
   #hero-image {
     height: 800px;
     background-size: cover;
+  }
+  #recent-games {
+    justify-content: center;
+    background-size: cover;
+    /* overflow: hidden; */
+  }
+  #recent-games .games {
+    display: grid;
+    margin: auto;
+    padding: 20px;
   }
 }
 /* end: media queries */
