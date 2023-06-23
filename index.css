@@ -582,6 +582,10 @@ nav ul li a:hover {
   /* padding: 4px 20px 0; */
   padding: 20px;
 }
+.textarea {
+  width: 400px;
+  height: 200px;
+}
 .cut {
   background-color: #15172b;
   border-radius: 10px;
@@ -935,7 +939,7 @@ footer ul li a:hover {
   }
 
   .hero-marketing-text {
-    margin-top: -1px;
+    margin-top: -50px;
   }
   #hero-image {
     height: 800px;
@@ -967,8 +971,12 @@ footer ul li a:hover {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: 100px;
   }
-  .contact-form form .form-row {
-    display: grid;
+  #posts-comments .contact-form {
+    max-width: 300px;
+    /* max-height: 550px; */
+  }
+  .textarea {
+    width: 250px;
   }
 }
 /* end: media queries */
