@@ -945,14 +945,24 @@ footer ul li a:hover {
   #recent-games {
     /* justify-content: center; */
     background-size: cover;
-    overflow-x: auto;
+    /* overflow-x: auto; */
     /* overflow: hidden; */
   }
   #recent-games .games {
     display: grid;
-    /* margin: auto; */
-    padding: 20px;
+    margin: auto;
+    /* padding: 20px ; */
     position: relative;
+  }
+  #recent-games .games .flex .game-info {
+    max-width: 350px;
+  }
+  .carousel img {
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    /* padding: 20px; */
   }
 }
 /* end: media queries */
