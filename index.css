@@ -968,5 +968,9 @@ footer ul li a:hover {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: 100px;
   }
+  #posts-comments .game-warrior .developer .icons li{
+    flex-basis: 15%;
+    margin-bottom: 20px;
+  }
 }
 /* end: media queries */
