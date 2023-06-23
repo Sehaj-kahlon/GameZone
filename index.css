@@ -829,6 +829,9 @@ footer ul li a:hover {
   .contact-form {
     margin: auto;
   }
+  .hero-marketing-text {
+    margin: 200px auto 0;
+  }
 } /* end 991px */
 
 @media (max-width: 768px) {
@@ -999,7 +1002,7 @@ footer ul li a:hover {
   }
 
   .hero-marketing-text {
-    margin-top: -50px;
+    margin: 60px auto 0;
   }
   #hero-image {
     height: 800px;
@@ -1104,6 +1107,9 @@ footer ul li a:hover {
     border: 1px solid #4a4a4a;
     border-radius: 1rem;
     padding: 0px 20px 0px 10px;
+  }
+  .hero-marketing-text {
+    margin: 10px auto 0;
   }
 }
 /* end: media queries */
