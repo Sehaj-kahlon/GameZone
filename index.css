@@ -465,7 +465,7 @@ nav ul li a:hover {
 #screens-gallery .gallery .img img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 1rem;
 }
 
@@ -963,6 +963,10 @@ footer ul li a:hover {
     object-fit: cover;
     display: block;
     /* padding: 20px; */
+  }
+  .grid-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
   }
 }
 /* end: media queries */
