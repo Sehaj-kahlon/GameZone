@@ -172,13 +172,10 @@ nav ul li a:hover {
 }
 
 .hero-marketing-text {
-  max-width: 1200px;
-  margin: -30px auto 0;
-  position: absolute;
+  max-width: 1300px;
+  margin: 100px auto 0;
   top: 30%;
-  left: 0;
-  right: 0;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .hero-marketing-text h1 {
