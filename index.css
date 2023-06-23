@@ -726,7 +726,7 @@ footer ul li a:hover {
 /* end: footer styles */
 
 /* start: media queries */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .flex {
     max-width: 1000px;
   }
