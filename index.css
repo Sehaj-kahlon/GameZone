@@ -240,6 +240,7 @@ nav ul li a:hover {
   border-bottom: 1px solid #d6dee7;
   padding: 20px 0;
   color: white;
+  overflow: hidden;
 }
 #recent-games .games {
   max-width: 1500px;
@@ -564,6 +565,7 @@ nav ul li a:hover {
   border: 1px solid #4a4a4a;
   border-radius: 1rem;
   padding: 10px 30px 10px 30px;
+  overflow: hidden;
 }
 .contact-form h3 {
   color: white;
