@@ -173,16 +173,18 @@ nav ul li a:hover {
 
 .hero-marketing-text {
   max-width: 1300px;
-  margin: 100px auto 0;
+  margin: 150px auto 0;
   top: 30%;
   padding: 0 20px;
 }
 
 .hero-marketing-text h1 {
   color: #eee;
-  font-size: 3em;
+  font-size: 3.1em;
   font-weight: 800;
   margin: 0.5em 0;
+  max-width: 1200px;
+  align-items: left;
 }
 
 .hero-marketing-text span {
@@ -191,7 +193,7 @@ nav ul li a:hover {
 
 .hero-marketing-text h5 {
   color: #eee;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 700;
   line-height: 2;
   margin-bottom: 2.5em;
@@ -877,7 +879,7 @@ footer ul li a:hover {
   }
 
   .hero-marketing-text {
-    margin-top: -90px;
+    margin-top: -50px;
   }
 
   .hero-marketing-text h1 {
@@ -1002,7 +1004,7 @@ footer ul li a:hover {
   }
 
   .hero-marketing-text {
-    margin: 60px auto 0;
+    margin: 150px auto 0;
   }
   #hero-image {
     height: 800px;
@@ -1057,9 +1059,6 @@ footer ul li a:hover {
     font-size: 0.65em;
   }
 
-  .hero-marketing-text {
-    margin-top: -50px;
-  }
   #hero-image {
     height: 800px;
     background-size: cover;
