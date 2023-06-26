@@ -424,6 +424,12 @@ nav ul li a:hover {
   transition: 200ms opacity ease-in-out;
   transition-delay: 200ms;
 }
+.carousel .instruction {
+  font-style: italic;
+  /* text-align: center; */
+  margin-left: 50px;
+  font-size: 1rem;
+}
 
 /* end: recent games styles */
 
