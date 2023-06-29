@@ -407,7 +407,7 @@ nav ul li a:hover {
   position: relative;
   /* margin-left: 50px; */
 }
-.carousel img {
+.carousel video {
   max-width: 500px;
   max-height: 500px;
   object-fit: cover;
