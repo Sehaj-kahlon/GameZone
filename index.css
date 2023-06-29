@@ -833,7 +833,7 @@ footer ul li a:hover {
   #posts-comments .game-warrior .developer .icons li {
     flex-basis: 10%;
   }
-  .carousel img {
+  .carousel video {
     margin: auto;
   }
   .contact-form {
@@ -978,7 +978,7 @@ footer ul li a:hover {
     max-width: 350px;
   }
 
-  .carousel img {
+  .carousel video {
     margin: auto;
     object-fit: cover;
     display: block;
@@ -1030,7 +1030,7 @@ footer ul li a:hover {
     max-width: 350px;
   }
 
-  .carousel img {
+  .carousel video {
     margin: auto;
     max-width: 280px;
     max-height: 200px;
@@ -1083,7 +1083,7 @@ footer ul li a:hover {
     max-width: 300px;
   }
 
-  .carousel img {
+  .carousel video {
     margin: auto;
     max-width: 200px;
     max-height: 200px;
