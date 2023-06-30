@@ -198,7 +198,6 @@ nav ul li a:hover {
   line-height: 2;
   margin-bottom: 2.5em;
 }
-
 .hero-marketing-text button {
   background-color: #7f00ff;
   color: #fff;
@@ -208,6 +207,16 @@ nav ul li a:hover {
   font-weight: 600;
   border: none;
   cursor: pointer;
+  box-shadow: 0 2px #999;
+}
+.hero-marketing-text a  :hover {
+  background-color: #9227fc;
+}
+
+.hero-marketing-text a :active {
+  background-color: #7f00ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 /* end: hero styles */
 
@@ -691,6 +700,16 @@ form .form-col .input-data {
   font-weight: 600;
   border: none;
   cursor: pointer;
+  box-shadow: 0 1px #999;
+}
+.formButtons button:hover {
+  background-color: #8711fd;
+}
+
+.formButtons button:active {
+  background-color: #7f00ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 /* end: posts/comments styles */
 
