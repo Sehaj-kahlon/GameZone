@@ -198,32 +198,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form method="post">
+                <div class="contact-form" id="contact_form">
+                    <form action="https://formcarry.com/s/6V_R0ST22-" method="POST">
                         <h3>Contact / Feedback</h3>
                         <div class="form-row">
                             <div class="input-data">
-                                <input id="firstname" class="input" type="text" placeholder=" " />
+                                <input name="name" class="input" type="text" placeholder=" " />
                                 <div class="cut"></div>
-                                <label for="firstname" class="placeholder">First Name</label>
+                                <label for="name" class="placeholder">Name</label>
                             </div>
 
                         </div>
                         <div class="form-col">
                             <div class="input-data">
-                                <input id="email" class="input" type="email" placeholder=" " required />
+                                <input name="email" class="input" type="email" placeholder=" " required />
                                 <div class="cut"></div>
                                 <label for="email" class="placeholder">Email ID *</label>
                             </div>
-                            <div class="input-data">
+                            <!-- <div class="input-data">
                                 <input id="subject" class="input" type="text" placeholder=" " />
                                 <div class="cut"></div>
                                 <label for="subject" class="placeholder">Subject </label>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="form-row">
                             <div class="input-data ">
-                                <textarea id="message" class="textarea" placeholder=" " required></textarea>
+                                <textarea name="message" class="textarea" placeholder=" " required></textarea>
                                 <div class="cut"></div>
                                 <label for="message" class="placeholder">Write your message *</label>
                             </div>
@@ -257,7 +257,7 @@
         });
 
     </script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         var btn1 = document.getElementById('btn1');
         btn1.addEventListener('click', function (e) {
@@ -277,7 +277,7 @@
                 message => alert(message)
             );
         })
-    </script>
+    </script> -->
 </body>
 
 </html>
