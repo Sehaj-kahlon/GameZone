@@ -165,7 +165,7 @@ nav ul li a:hover {
 
 /* start: hero styles */
 #hero-image {
-  background-image: url(assets/background.2jpg.png);
+  background-image: url(https://i.ibb.co/hDg2XL8/background-2jpg.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -510,7 +510,7 @@ nav ul li a:hover {
 
 /* start: posts/comments styles */
 #posts-comments {
-  background: url("assets/Contact_background.png") 0 0;
+  background: url("https://i.ibb.co/3TdvWSn/Contact-background.png") 0 0;
   padding: 50px 0;
 }
 
