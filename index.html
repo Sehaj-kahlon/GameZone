@@ -4,6 +4,7 @@
 <head>
     <title>GameZone</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="index.js"></script>
     <link href="index.css" rel="Stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/48252e46a7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css"
@@ -35,19 +36,19 @@
                         <a href="#"><img src="assets/GameZONE_footer_logo.svg" alt="GameZone Logo"
                                 class="LogoText" /></a>
                     </div>
-                    <nav>
-                        <button id="nav-toggle" class="hamburger-menu">
-                            <span class="strip"></span>
-                            <span class="strip"></span>
-                            <span class="strip"></span>
-                        </button>
-                        <ul id="nav-menu-container">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#about">ABOUT</a></li>
-                            <li><a href="#recent-games">GAMES</a></li>
-                            <li><a href="#screens-gallery">GALLERY</a></li>
-                            <li><a href="#posts-comments">CONTACT</a></li>
+                    <nav class="navbar">
+                        <ul class="nav-menu">
+                            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+                            <li class="nav-item"><a href="#recent-games" class="nav-link">GAMES</a></li>
+                            <li class="nav-item"><a href="#screens-gallery" class="nav-link">GALLERY</a></li>
+                            <li class="nav-item"><a href="#posts-comments" class="nav-link">CONTACT</a></li>
                         </ul>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </nav>
                 </div>
             </header>
@@ -84,10 +85,6 @@
             <div class="games">
                 <div class="flex">
                     <div class="carousel">
-
-                        <!-- <video src="assets/video_quizzApp.mp4" type="video/mp4" autoplay loop muted>
-                            Your Browser Does not Support HTML5 videos
-                        </video> -->
                         <iframe id="frame"
                             src="https://www.youtube.com/embed/SLWLGlKSRAU?autoplay=1&mute=1&loop=1&controls=0&rel=0&modestbranding=1&autohide=1&showinfo=0&muted=1&playlist=SLWLGlKSRAU"
                             frameborder="0" allowfullscreen>
@@ -116,9 +113,6 @@
                 </div>
                 <div class="flex">
                     <div class="carousel">
-                        <!-- <video class="video" src="assets/video_snakeMania.mp4" type="video/mp4" autoplay loop muted>
-                            Your Browser Does not Support HTML5 videos
-                        </video> -->
                         <iframe id="frame"
                             src="https://www.youtube.com/embed/1OatP7AzIFQ?autoplay=1&mute=1&loop=1&controls=0&rel=0&modestbranding=1&autohide=1&showinfo=0&muted=1&playlist=1OatP7AzIFQ"
                             frameborder="0" allowfullscreen>
@@ -180,8 +174,6 @@
                     <img src="assets/GameZONE_footer_logo.svg" />
                     <p>Experience an explosion of 2-D gaming fun at GameZone, where endless fun and exhilaration await!
                     </p>
-                    <!-- <img class="footer-graphic"
-                        src="https://onclickwebdesign.com/wp-content/uploads/sword_lady_footer.png" /> -->
                     <div class="developer">
                         <span>Developer</span><br>
                         Sehaj kahlon</br>
@@ -214,11 +206,6 @@
                                 <div class="cut"></div>
                                 <label for="email" class="placeholder">Email ID *</label>
                             </div>
-                            <!-- <div class="input-data">
-                                <input id="subject" class="input" type="text" placeholder=" " />
-                                <div class="cut"></div>
-                                <label for="subject" class="placeholder">Subject </label>
-                            </div> -->
                         </div>
                         <div class="form-row">
                             <div class="input-data ">
@@ -249,34 +236,14 @@
             </ul>
         </div>
     </footer>
-    <script>
+    <!-- <script>
         document.getElementById("nav-toggle").addEventListener("click", function () {
             let navMenu = document.getElementById("nav-menu-container");
             navMenu.style.display = navMenu.offsetParent === null ? "block" : "none";
         });
 
-    </script>
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        var btn1 = document.getElementById('btn1');
-        btn1.addEventListener('click', function (e) {
-            e.preventDefault();
-            var firstname = document.getElementById('firstname').value;
-            var lastname = document.getElementById('lastname').value;
-            var email = document.getElementById('email').value;
-            var subject = document.getElementById('subject').value;
-            var message = document.getElementById('message').value;
-            Email.send({
-                SecureToken: "3339ce1a-c121-4416-adcc-ac4cadefbe6c",
-                To: 'sehajkahlon437@gmail.com',
-                From: email,
-                Subject: subject,
-                Body: message
-            }).then(
-                message => alert(message)
-            );
-        })
     </script> -->
+
 </body>
 
 </html>
