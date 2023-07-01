@@ -16,12 +16,16 @@ GameZone is an exhilarating website that offers a collection of 2D games, includ
 
 Github repo: https://github.com/Sehaj-kahlon/Quizz-App  
 Deployed Website: https://sehaj-kahlon.github.io/Quizz-App/  
+
+
 ![image](https://github.com/Sehaj-kahlon/GameZone/assets/114355575/db9f30b9-04a5-425c-a201-452704355ca7)
 
 ### SnakeMania
 
 Github repo: https://github.com/Sehaj-kahlon/Snake_Mania  
 Deployed Website: https://sehaj-kahlon.github.io/Snake_Mania/  
+
+
 ![image](https://github.com/Sehaj-kahlon/GameZone/assets/114355575/2ae5a8a2-2d4b-460c-b26e-7327b88d7b4d)
 
 ## Deployed Website
