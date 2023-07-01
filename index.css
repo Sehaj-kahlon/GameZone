@@ -180,7 +180,7 @@ nav ul li a:hover {
   margin: 0 20px;
 }
 .nav-link {
-  transition: 0.7s ease;
+  transition: 0.3s ease;
   color: #eee;
   font-weight: 600;
 }
